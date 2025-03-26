@@ -1,0 +1,23 @@
+﻿<Window x:Class="BooksAccounting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksAccounting"
+        mc:Ignorable="d"
+        Title="Книга братан" Height="450" Width="800">
+
+    <Grid Background="#FFFFE1E1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>    
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Bottom">
+            <MenuItem Margin="8 8 8 0" Height="25" Width="266" HorizontalAlignment="Left" Background="White" BorderBrush="#FFD08B8B" BorderThickness="1.5" Header="Добавить/Редактировать книгу"/>
+            <MenuItem Margin="8 8 8 0" Height="25" Width="266" HorizontalAlignment="Center" Background="White" BorderBrush="#FFD08B8B" BorderThickness="1.5" Header="Добавить/Редактировать автора"/>
+            <Label Content="#Тут будет поле поиска#" Margin="8" HorizontalAlignment="Right" Width="150"/>
+        </StackPanel>
+        <Separator Grid.Row="1" VerticalAlignment="Top" Width="Auto" Background="#FFD08B8B" BorderBrush="#FFD08B8B"/>
+        
+    </Grid>
+</Window>

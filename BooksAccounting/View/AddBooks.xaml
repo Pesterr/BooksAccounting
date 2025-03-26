@@ -1,0 +1,47 @@
+﻿<Window x:Class="BooksAccounting.View.AddBooks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksAccounting.View"
+        mc:Ignorable="d"
+        Title="Добавление книги" Height="440" Width="530">
+    
+    
+    <Grid Background="#FFFFE1E1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Добавление книги" Style="{StaticResource TextBlockStyle}"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="5">
+            
+            <TextBlock Text="Название" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Style="{StaticResource TextBoxStyle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Автор" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Style="{StaticResource TextBoxStyle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Год публикации" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Style="{StaticResource TextBoxStyle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Жанр" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Style="{StaticResource TextBoxStyle}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Доступность" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Style="{StaticResource TextBoxStyle}"/>
+        </StackPanel>
+        <Separator Grid.Row="0" Style="{StaticResource SepparatorStyle}"/>
+        <Button Content="Добавить" Grid.Row="6" Style="{StaticResource ButtonStyle}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="TextBlockStyle">
+            <Setter Property="Control.FontFamily" Value="Verdana"/>
+            <Setter Property="Control.VerticalAlignment" Value="Center"/>
+            <Setter Property="Control.Margin" Value="10"/>
+            <Setter Property="Control.Height" Value="30"/>
+            <Setter Property="Control.Width" Value="200"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+        </Style>
+        <Style x:Key="TextBoxStyle">
+            <Setter Property="Control.Background" Value="#FFFFF1E1"/>
+            <Setter Property="Control.Height" Value="30"/>
+            <Setter Property="Control.Width" Value="300"/>
+            <Setter Property="Control.VerticalAlignment" Value="Center"/>
+            <Setter Property="Control.HorizontalAlignment" Value="Right"/>
+            <Setter Property="Control.Margin" Value="-20"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Control.FontFamily" Value="Verdana"/>
+            <Setter Property="Control.BorderBrush" Value="#FFD08B8B"/>
+        </Style>
+        <Style x:Key="ButtonStyle">
+            <Setter Property="Control.Margin" Value="10"/>
+            <Setter Property="Control.Width" Value="150"/>
+            <Setter Property="Control.Height" Value="40"/>
+            <Setter Property="Control.Background" Value="#FFFFE1E1"/>
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Control.FontFamily" Value="Verdana"/>
+            <Setter Property="Control.BorderBrush" Value="#FFD08B8B"/>
+        </Style>
+        <Style x:Key="SepparatorStyle">
+            <Setter Property="Control.VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Control.Width" Value="Auto"/>
+            <Setter Property="Control.Background" Value="#FFD08B8B"/>
+        </Style>
+
+</ResourceDictionary>
