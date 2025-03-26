@@ -11,7 +11,7 @@
             <Setter Property="Control.FontSize" Value="20"/>
         </Style>
         <Style x:Key="TextBoxStyle">
-            <Setter Property="Control.Background" Value="#FFFFF1E1"/>
+            <Setter Property="Control.Background" Value="#DFF1E1E1"/>
             <Setter Property="Control.Height" Value="30"/>
             <Setter Property="Control.Width" Value="300"/>
             <Setter Property="Control.VerticalAlignment" Value="Center"/>
